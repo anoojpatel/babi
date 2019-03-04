@@ -7,3 +7,5 @@ Named after the "chief of baboons" in Egyptian mythology. The name is fitting be
 ## Goals
 Deliver a robust engine that will manage thousands of trades to and from an exchange. Most engines are a part of a larger trading platform, and as a result I find it difficult to manage positions and the data communications between trades with current systems. I find it useful to abstract away the execution from the trading systems themselves. 
 The goal is to build a trade protocol between the engine and its users, so that information can be kept separate from the trading execution system. This is so I can off load the bloated packages onto other servers and manage my own data securely. 
+
+
